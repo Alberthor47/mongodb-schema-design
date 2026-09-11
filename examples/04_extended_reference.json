@@ -1,0 +1,20 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d05"},
+  "order_number": "ORD-2026-9921",
+  "created_at": {"$date": "2026-09-11T11:30:00Z"},
+  "status": "PROCESSING",
+  "customer": {
+    "customer_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d00"},
+    "name": "Alberto Camarena",
+    "email": "alberto@example.com"
+  },
+  "items": [
+    {
+      "product_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d01"},
+      "title": "Legendary Trail Mountain Bike",
+      "price": 1299.99,
+      "qty": 1
+    }
+  ],
+  "total_amount": 1299.99
+}

@@ -1,0 +1,13 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d03"},
+  "product_name": "Pro Gaming Laptop 15X",
+  "category": "Laptops",
+  "brand": "TechCorp",
+  "attributes": [
+    { "k": "screen_size_inches", "v": 15.6, "u": "inches" },
+    { "k": "ram_gb", "v": 32, "u": "GB" },
+    { "k": "storage_tb", "v": 2, "u": "TB" },
+    { "k": "gpu_model", "v": "NVIDIA RTX 4080" },
+    { "k": "release_year", "v": 2025 }
+  ]
+}

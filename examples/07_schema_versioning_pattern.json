@@ -1,0 +1,10 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d88"},
+  "schema_version": 2,
+  "username": "johndoe",
+  "contact": {
+    "email": "john@example.com",
+    "phone": "+1-555-0199"
+  },
+  "created_at": {"$date": "2026-09-10T14:20:00Z"}
+}

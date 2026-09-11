@@ -1,0 +1,11 @@
+{
+  "_comment": "BAD PRACTICE: Storing 50,000 logs in a single document array will bloat the document and hit MongoDB 16MB document limit!",
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d99"},
+  "user_id": "USER-10023",
+  "activity_logs": [
+    { "timestamp": "2024-01-01T00:00:01Z", "action": "LOGIN" },
+    { "timestamp": "2024-01-01T00:00:05Z", "action": "VIEW_ITEM" },
+    { "timestamp": "2024-01-01T00:00:10Z", "action": "ADD_TO_CART" },
+    "--- 49,997 more elements that eventually crash or slow down WiredTiger RAM cache ---"
+  ]
+}

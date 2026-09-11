@@ -1,0 +1,17 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d04"},
+  "device_id": "SENSOR-TEMP-NYC-009",
+  "bucket_start_date": {"$date": "2026-09-11T10:00:00Z"},
+  "bucket_end_date": {"$date": "2026-09-11T10:59:59Z"},
+  "count": 60,
+  "stats": {
+    "min_temp_c": 21.2,
+    "max_temp_c": 24.8,
+    "avg_temp_c": 22.95
+  },
+  "readings": [
+    { "timestamp": {"$date": "2026-09-11T10:00:00Z"}, "temp_c": 21.2, "humidity_pct": 55 },
+    { "timestamp": {"$date": "2026-09-11T10:01:00Z"}, "temp_c": 21.5, "humidity_pct": 54 },
+    { "timestamp": {"$date": "2026-09-11T10:59:00Z"}, "temp_c": 22.1, "humidity_pct": 52 }
+  ]
+}

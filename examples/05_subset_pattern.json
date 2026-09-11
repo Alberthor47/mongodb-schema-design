@@ -1,0 +1,23 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d01"},
+  "title": "Legendary Trail Mountain Bike",
+  "price": 1299.99,
+  "total_reviews_count": 842,
+  "rating_avg": 4.8,
+  "recent_top_reviews": [
+    {
+      "review_id": {"$oid": "651a2b3c4d5e6f7a8b9c0e01"},
+      "author": "Maria S.",
+      "rating": 5,
+      "date": "2026-09-01",
+      "comment": "Best mountain bike I have ever ridden! Smooth suspension."
+    },
+    {
+      "review_id": {"$oid": "651a2b3c4d5e6f7a8b9c0e02"},
+      "author": "Carlos R.",
+      "rating": 5,
+      "date": "2026-08-28",
+      "comment": "Lightweight frame and handles steep trails effortlessly."
+    }
+  ]
+}

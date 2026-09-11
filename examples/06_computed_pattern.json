@@ -1,0 +1,9 @@
+{
+  "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d01"},
+  "movie_title": "Interstellar Journey",
+  "release_year": 2024,
+  "total_votes": 12500,
+  "sum_of_ratings": 112500,
+  "avg_rating": 9.0,
+  "last_updated": {"$date": "2026-09-11T12:00:00Z"}
+}

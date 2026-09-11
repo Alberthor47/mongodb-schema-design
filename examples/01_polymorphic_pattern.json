@@ -1,0 +1,27 @@
+[
+  {
+    "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d01"},
+    "sku": "BIKE-LGD-01",
+    "item_type": "BICYCLE",
+    "title": "Legendary Trail Mountain Bike",
+    "price": 1299.99,
+    "specs": {
+      "frame_material": "Aluminum Alloy",
+      "wheel_size_inches": 29,
+      "gears": 12,
+      "suspension": "Full"
+    }
+  },
+  {
+    "_id": {"$oid": "651a2b3c4d5e6f7a8b9c0d02"},
+    "sku": "HELMET-PRO-88",
+    "item_type": "HELMET",
+    "title": "Aerodynamic Carbon Helmet",
+    "price": 149.50,
+    "specs": {
+      "size": "M",
+      "color": "Matte Black",
+      "safety_certifications": ["DOT", "ECE 22.05"]
+    }
+  }
+]
